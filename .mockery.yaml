@@ -5,7 +5,7 @@ outpkg: "mocks"
 packages:
   github.com/berachain/polaris/cosmos/config:
     config:
-      recursive: True
+      recursive: false
       with-expecter: true
       all: True
   github.com/berachain/polaris/cosmos/runtime/txpool:
